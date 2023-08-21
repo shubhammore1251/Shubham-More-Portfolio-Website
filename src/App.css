@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.gradient-background {
+  background: #242149b9 !important;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background: #0f0c29;
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); */
+  
+  background: #242149;
+}
+
+html::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    109.6deg,
+    rgba(222, 73, 5, 1) 11.2%,
+    rgba(236, 249, 10, 1) 91.1%
+  );
+  border-radius: 70vw;
+}
+
+
+html::-webkit-scrollbar-track {
+  height: 20px;
+}
+
+.gradient-text{
+  background: linear-gradient(
+    109.6deg,
+    rgba(222, 73, 5, 1) 11.2%,
+    rgba(236, 249, 10, 1) 91.1%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.btn {
+  background-color: #fff !important;
+  border-radius: 50px !important;
+  box-shadow: 2px 4px 0px 2px rgba(0, 0, 0, 0.75);
+  color: #0f0c29 !important;
+  font-size: 1.2rem !important;
+  text-transform: capitalize !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+}
+
+.btn:hover {
+  animation: text-shadow-pop-br 0.6s both;
+}
+
+
+@keyframes imagemove {
+  0% {
+    transform: translateY(-3%);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-3%);
+  }
+}
+
+@keyframes text-shadow-pop-br {
+  0% {
+    box-shadow: 2px 4px 0px 2px rgba(0, 0, 0, 0.75);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 3px 6px 0px 2px rgba(0, 0, 0, 0.75);
+    transform: translateX(-2px) translateY(-2px);
+  }
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 1199px) {
+  
+  .btn {
+    font-size: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem !important;
+  }
+}
