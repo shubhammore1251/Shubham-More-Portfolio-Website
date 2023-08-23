@@ -29,10 +29,11 @@ const About = () => {
         <Box
           sx={{
             display: "flex",
-            justifyContent: { xs: "center", md: "space-between" },
-            alignItems: {xs: "center", md: "flex-start"},
+            justifyContent: { xs: "center", md: "space-evenly" },
+            alignItems: "center",
             flexDirection: { xs: "column", md: "row" },
-            width: "90%",
+            width: "100%",
+            margin: {xs: "2rem 0" , lg: "1rem 0", xl: "0"},
           }}
         >
           <Box
@@ -41,8 +42,8 @@ const About = () => {
               justifyContent: "center",
               alignItems: "center",
               flexDirection: "column",
-              width: { xs: "100%", sm: "90%", md: "90%", lg: "100%"},
-              padding: {xs: "1rem 0", md: "5rem 0"},
+              width: { xs: "90%" ,md: "50%", xl: "40%"},
+              padding: { xs: "1rem" , md: "3rem", xl: "5rem 1rem"},
             }}
           >
             <Typography
@@ -51,13 +52,14 @@ const About = () => {
                 color: "#fff",
                 fontSize: {
                   xs: "0.8rem",
-                  md: "1rem",
-                  lg: "1rem",
+                  md: "0.9rem",
+                  xl: "1rem"
                 },
                 textAlign: "justify",
                 fontWeight: "500",
                 letterSpacing: "1px",
                 lineHeight: "1.5",
+                marginBottom: "3vh"
               }}
             >
               Passionate Front End Developer with a strong foundation in HTML,
@@ -72,8 +74,8 @@ const About = () => {
                 color: "#fff",
                 fontSize: {
                   xs: "0.8rem",
-                  md: "1rem",
-                  lg: "1rem",
+                  md: "0.9rem",
+                  xl: "1rem",
                 },
                 textAlign: "justify",
                 fontWeight: "500",
@@ -93,16 +95,16 @@ const About = () => {
 
           <Box
             sx={{
-              display: "flex !important",
+              display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              width: "80%",
+              width: {xs: "90%" , md: "35%"},
             }}
           >
             <Box
               component="img"
               sx={{
-                width: { xs: "250px", sm: "300px", md: "400px", lg: "500px" },
+                width: { xs: "60%", sm: "50%", md: "90%", xl: "80%"},
                 filter: "drop-shadow(5px 12px 20px grey)",
               }}
               src={AboutCompImg}

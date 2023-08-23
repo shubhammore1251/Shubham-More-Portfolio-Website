@@ -10,7 +10,7 @@ const HeroSection = () => {
           justifyContent: { xs: "center", md: "center", lg: "space-between" },
           alignItems: "center",
           flexDirection: { xs: "column", lg: "row" },
-          margin: { xs: "3rem 0", md: "0 5rem" },
+          margin: { xs: "3rem 0", lg: "0 5rem" },
           height: {xs: "100%", md: "100vh"},
         }}
       >
@@ -81,8 +81,8 @@ const HeroSection = () => {
             component="img"
             src={HeaderImg}
             sx={{
-              margin: {xs: "3rem", lg: "2rem"},
-              width: { xs: "280px",  sm: "350px" , lg: "400px", xl: "500px"},
+              margin: {xs: "3rem 0", lg: "2rem"},
+              width: { xs: "80%",  sm: "70%" , lg: "100%"},
               filter: "drop-shadow(8px 8px 15px grey)",
               animation: "imagemove 4s 0.2s infinite",
             }}
