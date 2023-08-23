@@ -26,7 +26,7 @@ export const FrontEndSkills = [
       id: "#124"
     },
     {
-      skill: "Saas",
+      skill: "SASS",
       src: SassImg,
       id: "#125"
     },
@@ -65,17 +65,17 @@ export const FrontEndSkills = [
 
 export const BackEndSkills = [
     {
-      skill: "ExpressJs",
+      skill: "EXPRESS JS",
       src: ExpressImg,
       id: "#132"
     },
     {
-      skill: "NodeJs",
+      skill: "NODE JS",
       src: NodeImg,
       id: "#133"
     },
     {
-        skill: "MongoDB",
+        skill: "MONGO DB",
         src: MongoImg,
         id: "#134"
     },
@@ -84,17 +84,17 @@ export const BackEndSkills = [
 
 export const ToolsData = [
     {
-      skill: "Firebase",
+      skill: "FIREBASE",
       src: FirebaseImg,
       id: "#135"
     },
     {
-      skill: "Git",
+      skill: "GIT",
       src: GitImg,
       id: "#136"
     },
     {
-      skill: "Postman",
+      skill: "POSTMAN",
       src: PostManImg,
       id: "#137"
     }
