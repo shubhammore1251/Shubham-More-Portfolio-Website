@@ -31,15 +31,15 @@ export const projectDetails = [
     techs: ["React", "Redux", "Firebase", "Mediapipe"],
     demo_url: "https://sign-language-ai.web.app/",
   },
-  {
-    id: "#3333",
-    title: "Realtime Chatrooms",
-    description:
-      "A Real-time  Chatrooms app built with React.js, Node.js, and Socket.io. Real-time conversations with ease and enjoy a responsive interface",
-    img: ChatAppImg,
-    techs: ["React", "NodeJs", "Socket IO"],
-    demo_url: "https://realtime-chatroomss.netlify.app",
-  },
+  // {
+  //   id: "#3333",
+  //   title: "Realtime Chatrooms",
+  //   description:
+  //     "A Real-time  Chatrooms app built with React.js, Node.js, and Socket.io. Real-time conversations with ease and enjoy a responsive interface",
+  //   img: ChatAppImg,
+  //   techs: ["React", "NodeJs", "Socket IO"],
+  //   demo_url: "https://realtime-chatroomss.netlify.app",
+  // },
   {
     id: "#4444",
     title: "YouTube Clone",

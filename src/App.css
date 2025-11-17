@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .gradient-background {
-  background: #242149b9 !important;
+  background: transparent !important;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -24,29 +23,33 @@ body {
     #302b63,
     #0f0c29
   ); */
-  
-  background: #242149;
+  user-select: none !important;
+
+  background: #6f0834;
+  background: linear-gradient(
+    63deg,
+    rgba(111, 8, 52, 1) 10%,
+    rgba(15, 12, 45, 1) 75%,
+    rgba(10, 22, 164, 1) 100%
+  );
 }
 
+
 html::-webkit-scrollbar {
-  width: 0.6vw;
+ width: 0 !important;
+ height: 0 !important;
 }
 
 html::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    109.6deg,
-    rgba(222, 73, 5, 1) 11.2%,
-    rgba(236, 249, 10, 1) 91.1%
-  );
+  background: transparent;
   border-radius: 70vw;
 }
-
 
 html::-webkit-scrollbar-track {
   height: 20px;
 }
 
-.gradient-text{
+.gradient-text {
   background: linear-gradient(
     109.6deg,
     rgba(222, 73, 5, 1) 11.2%,
@@ -56,7 +59,6 @@ html::-webkit-scrollbar-track {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .btn {
   background-color: #fff !important;
@@ -72,7 +74,6 @@ html::-webkit-scrollbar-track {
 .btn:hover {
   animation: text-shadow-pop-br 0.6s both;
 }
-
 
 @keyframes imagemove {
   0% {
@@ -99,16 +100,12 @@ html::-webkit-scrollbar-track {
   }
 }
 
-
-
 /*Media Queries*/
 @media screen and (max-width: 1199px) {
-  
   .btn {
     font-size: 1rem !important;
   }
 }
-
 
 @media screen and (max-width: 500px) {
   .btn {

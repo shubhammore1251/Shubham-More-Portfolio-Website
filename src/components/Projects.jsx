@@ -50,7 +50,7 @@ const Projects = () => {
                 height: "fit-content",
                 mt: 2,
                 background: "transparent",
-                border: "1px solid #fff",
+                border: "1px solid rgba(255, 255, 255, 0.37)",
                 boxShadow: "12px 15px 5px 2px rgba(0,0,0,0.75)",
                 borderRadius: { xs: "8px", sm: "20px" },
                 justifyContent: "center",
