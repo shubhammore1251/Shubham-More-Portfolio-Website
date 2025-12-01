@@ -7,7 +7,7 @@ import ReduxImg from "../assets/redux.png";
 import BsImg from "../assets/bs.png";
 import AdImg from "../assets/ant-design.png";
 import MuiImg from "../assets/muilogo.png";
-import ExpressImg from "../assets/expressjs.png";
+import ExpressImg from "../assets/expressjsnew.png";
 import NodeImg from "../assets/nodejs.png";
 import MongoImg from "../assets/mongodb.png";
 import FirebaseImg from "../assets/firebase.png";
