@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "/media/shubham/DATA/WEB DEVELOPMENT/ReactJs/React Projects/shubham-portfolioweb/dist"
+publish = "/home/shubham/Development/shubhamportfolio/dist"
 publishOrigin = "ui"
 commandOrigin = "ui"
 command = "npm run build"
