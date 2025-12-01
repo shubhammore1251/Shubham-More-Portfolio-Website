@@ -2,8 +2,18 @@ import MernEcomImg from "../assets/mern-ecom.png";
 import ChatAppImg from "../assets/react-chat-app.png";
 import SingLangImg from "../assets/slr.png";
 import YoutbeImg from "../assets/youtubeclone.png";
+import FlavrooImg from "../assets/Flavroo.png";
 
 export const projectDetails = [
+  {
+      id: "#0000",
+      title: "Flavroo - Food Delivery App",
+      description:
+        "Flavroo is a frontend-only food delivery mobile app UI inspired by apps like Swiggy, Zomato, and Deliveroo. It focuses purely on UI/UX with smooth navigation and polished screens",
+      img: FlavrooImg,
+      techs: ["React Native", "Expo", "Tailwind CSS", "Zustand"],
+      demo_url: "https://github.com/shubhammore1251/Flavroo-UI-React-Native",
+  },
   {
     id: "#1111",
     title: "MERN Based Ecommerce Application",
