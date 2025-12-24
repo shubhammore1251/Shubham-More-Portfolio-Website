@@ -1,5 +1,5 @@
 import { Box, Button, Typography } from "@mui/material";
-import HeaderImg from "../assets/shubham-more-img.png";
+import HeaderImg from "../assets/profile-pic.png";
 
 const HeroSection = () => {
   const badges = [
@@ -156,7 +156,7 @@ const HeroSection = () => {
           <Box
             sx={{
               position: "relative",
-              width: { xs: 380, sm: 300, md: 360, lg: 520 },
+              width: { xs: 380, sm: 300, md: 360, lg: 620 },
               height: { xs: 380, sm: 380, md: 460, lg: 620 },
               display: "flex",
               alignItems: "center",

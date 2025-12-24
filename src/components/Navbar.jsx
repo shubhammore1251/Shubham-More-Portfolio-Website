@@ -210,7 +210,7 @@ const Navbar = () => {
             }}
           >
             {/* left logo */}
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1, pl: 1, }}>
+            <Box component="a" href="/" sx={{ display: "flex", alignItems: "center", gap: 1, pl: 1, }}>
               <Typography sx={{ color: "#ff1053", fontWeight: 800, fontSize: { xs: 12, sm: 14, md: 18, letterSpacing: "4px" } }}>
                 PORTFOLIO
               </Typography>

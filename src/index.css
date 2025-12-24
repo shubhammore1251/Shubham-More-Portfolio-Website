@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* =========================
+   DESIGN TOKENS
+========================= */
+:root {
+  --background: 220 20% 6%;
+  --foreground: 210 40% 98%;
+
+  --card: 220 20% 10%;
+  --border: 220 20% 18%;
+
+  --primary: 236 74% 71%;
+  --accent: 343 100% 53%;
+  --secondary: 220 20% 14%;
+
+  --muted-foreground: 215 20% 55%;
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    hsl(186 100% 50%),
+    hsl(220 100% 60%)
+  );
+
+  --shadow-glow: 0 0 60px hsl(186 100% 50% / 0.15);
+}
+
+/* =========================
+   CUSTOM UTILITIES (NO @apply)
+========================= */
+.border-border {
+  border-color: hsl(var(--border));
+}
+
+.bg-background {
+  background-color: hsl(var(--background));
+}
+
+.bg-card {
+  background-color: hsl(var(--card));
+}
+
+.bg-secondary {
+  background-color: hsl(var(--secondary));
+}
+
+.text-foreground {
+  color: hsl(var(--foreground));
+}
+
+.text-primary {
+  color: hsl(var(--primary));
+}
+
+.text-accent {
+  color: hsl(var(--accent));
+}
+
+.text-muted-foreground {
+  color: hsl(var(--muted-foreground));
+}
+
+.gradient-text {
+  background-image: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-glow);
+}
