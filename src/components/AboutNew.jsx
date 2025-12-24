@@ -135,7 +135,7 @@ export const AboutSection = () => {
       <div className="w-full max-w-8xl px-6">
         <div className="w-full flex flex-col lg:flex-row items-center justify-between space-y-8! lg:space-y-0!">
           {/* LEFT */}
-          <div className="relative flex justify-center lg:justify-start w-full flex-1 px-13!">
+          <div className="relative flex justify-center lg:justify-start w-full flex-1 px-2! sm:px-13!">
             <div className="aspect-square max-w-xl w-full relative">
               {/* gradients */}
               <div
